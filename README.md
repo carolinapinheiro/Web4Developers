@@ -7,4 +7,4 @@ We will show all the projects already developed by us, until the
 date and a little bit of our journey, with which each one identifies professionally. <br>
 I developed this project with the languages, HTML, CSS, Javascript, Mysql, SQL and PHP.
 <br><br>
-<b style="text-align:center">Soon will be online</b>
+<b>Soon will be online</b>
