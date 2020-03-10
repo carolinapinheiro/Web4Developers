@@ -1,0 +1,41 @@
+@keyframes slidein-left {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slidein-right {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+h1 {  
+    animation: 3s slidein-right;
+    font-size: 70px;
+    text-align: center;
+}
+
+h2 {  
+    animation: 3s slidein-left;
+    font-size: 70px;
+    text-align: center;
+}
+
+.intro{
+    padding: 100px 0px;
+}
+
+body{
+    font-family: 'Press Start 2P', cursive;
+    color: #ffca18;
+    background-color: black;
+    overflow: hidden;
+}
+

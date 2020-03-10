@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+    /* background-image: url('/image/rides_hero.jpeg'); */
+    /* font-family: 'Tomorrow', sans-serif; */
+    /* font-family: 'Turret Road', cursive; */
+    /* font-family: 'Audiowide', cursive; */
+    /* font-family: 'VT323', monospace; */
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+canvas{
+    border: 5px solid #ffca18;
+    cursor: cell; 
+    /*  cursor:url(http://www.javascriptkit.com/dhtmltutors/cursor-hand.gif), auto; */
+    /* background-color: aliceblue; */
+    background-image: url('../image/Prateleiras.png');
+    display: none;
+}
+
+#canvasloc{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    color: #ffca18;
+    text-shadow: 5px 5px hsla(0, 0%, 0%, 0.555);
+    font-size: 53px;
+}
+
+h2{
+    color: black;
+    font-size: 25px;
+}
+
+#menu{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-end;
+    align-content: stretch;  
+}
+
+.btn{
+    text-align: center;
+	display: inline-block;
+	margin:5px;
+    font-weight: bold;
+    font-size:20px;
+    background-color: #ffca18;
+    text-shadow: 2px 2x yellowgreen;
+    /* color: gray; */
+    -webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+    box-shadow: 0.2em gray; 
+    cursor: pointer;
+    color:#2a33bc;
+    font-family: 'Press Start 2P', cursive;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    /*color: blue;
+    background-color: rgb(196, 196, 235); */
+}
+
+#regras{
+    display: none;
+    margin-left: 20px;
+    width: 700px;
+    height: 550px;
+    background-color: black;
+    text-align: center;
+    color: white;
+
+}

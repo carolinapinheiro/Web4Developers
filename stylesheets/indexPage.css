@@ -1,0 +1,225 @@
+*{
+    background-color: black;
+    color: white;
+    font-family:'Roboto Mono', monospace;
+}
+
+/* NAVBAR ----------------------------- */
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    color: #ffca18;
+    text-decoration: none;
+}
+
+
+.btn{
+    position: absolute;
+    left: 70%;
+    top:85%;
+    z-index: 2;
+    font-family: 'Press Start 2P', cursive;
+    box-shadow: 7px 5px   #ff8000;  
+    color: white;
+}
+
+.button-shop{
+border:2px solid #ffca18;
+font-weight: bold;
+}
+
+/* HEADER ---------------------- */
+
+.header p{font-size:32px;}
+
+
+#text {
+	display: inline-block;
+    color: grey;
+    margin: 0 ;
+  
+    
+}
+
+#cursor {
+	display: inline-block;
+	width: 1px;
+	height: 30px;
+	background-color: grey;
+	animation: blink .75 step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: #ffca18; 
+	}
+}
+
+iframe{
+    width: 1000px;
+    height: 700px;
+    border: none;
+}
+/* ABOUT ----------------------------- */
+i{
+    background-color: #282828;
+    margin:0 auto;
+    left: 39%;
+    padding: 20px 0px;
+    position: relative;
+}
+
+
+.about{
+    padding: 20px 20px;
+    background-color: #282828;
+}
+
+.hrAbout{
+    border: 2px solid white;
+    width: 20%;
+}
+div.colAbout{
+    background-color: #282828;
+}
+
+.about p{
+ background-color: #282828;
+ text-align: center;
+ font-size: 30px;
+ font-family: 'Roboto Mono', monospace;
+}
+
+/* DESCRIPTION --------------------------*/
+
+
+.hrDescr{
+    width: 10%;
+    border: 2px solid white;
+}
+
+.descr{
+    padding: 60px 0px;
+    text-align: center;
+}
+
+
+
+/* TEAM ----------------------------- */
+.team img{
+    width:240px;
+    background-color: transparent;
+    position: relative;
+    bottom: -16px;
+    left: 10px;
+}
+
+.team p,b{
+    text-align: center;
+    background-color: white;
+    color:black;
+   }
+
+.panel{
+    background-color: white;
+    padding: 20px 20px;
+}   
+
+
+.flip-card {
+    background-color: transparent;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    color: black;
+    background-color: transparent;
+  }
+
+  
+  .flip-card-back {
+    position: relative;
+    right: 10px;
+    background-color: transparent;
+    transform: rotateY(180deg);
+  }
+
+
+/* FOOTER --------------------------- */
+
+.hrFooter{
+    border: 2px solid white;
+    margin: 0 auto;
+}
+
+.footer{
+    text-align: center;
+    padding: 50px 0px;
+    display: flex;
+
+}
+
+.copyright{
+    color:grey;
+    position: relative;
+    left: 10px;
+}
+
+.footer a{
+    text-decoration: none;
+    color:white;
+}
+
+.footer a:hover{
+    text-decoration: none;
+    color:#ffca18;
+}
+
+.imgFooter{
+  width: 37%; 
+  position: relative;
+  left: 20px;
+
+}
+
+.mail{
+    position: relative;
+    left: 15px;
+}
+
+i.fab{
+    background: none;  
+}
+
+.icons{
+    position: relative;
+    right: 37%;
+}

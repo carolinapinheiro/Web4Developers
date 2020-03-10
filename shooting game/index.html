@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="https://fonts.googleapis.com/css?family=Audiowide|Press+Start+2P|Tomorrow|Turret+Road|VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/firstpage.css">
+  
+  <title>Jogo da Mira</title>
+</head>
+<body>
+  <h1>SHOOTING GAME</h1>
+
+    <div id="canvasloc" >
+      <canvas id="canvas" width="700px" height="500px" ></canvas>
+
+      <div id='regras'></div>   
+    </div><!-- end canvasloc -->
+
+  <div id="menu">
+    <button id="btn1" class="btn" onclick="myFunction()">START</button>
+    <button id="btn2" class="btn" onclick="instrucoes()">INSTRUCTIONS</button>
+    <button id="btn3" class="btn" onclick="location.reload()" style="visibility: hidden">Home</button>
+</div><!-- end menu -->
+
+
+  <script src="regras.js"></script>
+  <script src="shoot.js"></script>
+  <script src="loops.js"></script>
+  <script src='Can.js'></script>
+  <script src="bottle.js"></script>
+  <script src="Bomb.js"></script>
+  <script src="missil.js"></script>
+  <script src="score.js"></script>
+     
+</body>
+</html>
