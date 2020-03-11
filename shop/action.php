@@ -48,7 +48,7 @@
                 if($values["product_id"] == $_POST["product_id"])  
                 {  
                      unset($_SESSION["shopping_cart"][$keys]);  
-                     $message = '<label class="text-success">Product Removed</label>';  
+                     $message = '<label class="text-success" style="color:red; font-size: 15px; padding:20px 20px">Product Removed</label>';  
                 }  
            }  
       }  
@@ -97,7 +97,7 @@
                 </tr>  
                 <tr>  
                      <td colspan="5" align="center">  
-                          <form method="post" action="cart.php">  
+                          <form method="post" action="confirm.php">  
                                <input type="submit" name="place_order" class="btn btn-warning" value="Place Order" />  
                           </form>  
                      </td>  
