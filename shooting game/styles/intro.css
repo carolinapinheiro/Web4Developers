@@ -17,13 +17,13 @@
 }
 
 h1 {  
-    animation: 3s slidein-right;
+    animation: 2s slidein-right;
     font-size: 70px;
     text-align: center;
 }
 
 h2 {  
-    animation: 3s slidein-left;
+    animation: 2s slidein-left;
     font-size: 70px;
     text-align: center;
 }

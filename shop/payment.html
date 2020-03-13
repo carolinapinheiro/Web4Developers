@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="styles/payment.css">
+    <link rel="icon" href="imagens/logopreto.png">
+      <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="payment">
+        <div class="container">
+            <img src="imagens/shopon.png">
+            <p>Obrigada por comprar connosco!<br>
+            <p>Receberá um e-mail com as informações do pagamento.</p>
+            <br>
+            <p class="timer">Irá ser redirecionado para a pagina inicial dentro de <span id="countdown"></span> segundos</p>
+        </div>
+    </div>
+
+<script src="scripts/countdown.js"></script>
+ <script>
+//Using setTimeout to execute a function after 5 seconds.
+setTimeout(function () {
+//Redirect with JavaScript
+   window.location.href= '../index.html';
+}, 5000);
+</script> 
+</body>
+</html>

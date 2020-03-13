@@ -11,8 +11,9 @@
            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>  
            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  
            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
-           <link rel="stylesheet" href="stylesheets/shop.css">
-     <!-- icons -->
+           <link rel="stylesheet" href="styles/shop.css">
+           <link rel="icon" href="imagens/logopreto.png">
+      <!-- icons -->
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
           <script src='https://kit.fontawesome.com/a076d05399.js'></script>
            
@@ -121,32 +122,32 @@
            </div> <!-- fim da div container -->
       </body>   <!-- fim body -->
 
-      <div class="footer" id="contacts"> 
-  <div class="container">
-    <hr class="hrFooter">
-    <img class="imgFooter" src="imagens/logoBrancoSmall.png"><br>
+     <div class="footer" id="contacts"> <!-- div foooter -->
+          <div class="container"><!-- div container -->
+            <hr class="hrFooter">
+                 <img class="imgFooter" src="imagens/logoBrancoSmall.png"><br>
    
-    <p>Have a project you’d like to discuss? I'd love to hear from you.</p><br> 
-    <ul><a href="">HOME</a> 
-        <a href="">ABOUT</a> 
-        <a href="">TEAM</a>
-    </ul>
-    <br>
-    <p class="mail">web4developers@gmail.com</p><br>
+                    <p>Have a project you’d like to discuss? I'd love to hear from you.</p><br> 
+                    <ul>
+                      <a href="">HOME</a> 
+                      <a href="">ABOUT</a> 
+                      <a href="">TEAM</a>
+                    </ul>
+                    <br>
+                    <p class="mail">web4developers@gmail.com</p><br>
     
-    <div class="icons">
-      <i style='font-size:24px' class='fab'>&#xf16d;</i>
-      <i style='font-size:24px' class='fab'>&#xf082;</i>
-      <i style='font-size:24px' class='fab'>&#xf081;</i>
-      <i style='font-size:24px' class='fab'>&#xf08c;</i>
-      <i style='font-size:24px' class='fab'>&#xf092;</i>
-    </div>
+                    <div class="icons">
+                         <i style='font-size:24px' class='fab'>&#xf16d;</i>
+                         <i style='font-size:24px' class='fab'>&#xf082;</i>
+                         <i style='font-size:24px' class='fab'>&#xf081;</i>
+                         <i style='font-size:24px' class='fab'>&#xf08c;</i>
+                         <i style='font-size:24px' class='fab'>&#xf092;</i>
+                    </div>
 
-    <p class="copyright">Copyright © 2020 Web4Developers</p>
-
-
-  </div>
-</div>
+                    <p class="copyright">Copyright © 2020 Web4Developers</p>
+          </div><!-- fim div container -->
+     </div><!--fim div foooter -->
+     
  </html>  <!-- FIM HTML -->
 
  <!-- SCRIPTS -->

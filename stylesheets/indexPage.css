@@ -35,8 +35,6 @@ font-weight: bold;
 
 /* HEADER ---------------------- */
 
-.header p{font-size:32px;}
-
 
 #text {
 	display: inline-block;
@@ -63,11 +61,7 @@ font-weight: bold;
 	}
 }
 
-iframe{
-    width: 1000px;
-    height: 700px;
-    border: none;
-}
+
 /* ABOUT ----------------------------- */
 i{
     background-color: #282828;
