@@ -23,7 +23,7 @@
   </head>
 
   <!-- body -->
-  <body  action="phpmailer/mail.php" method="POST">
+  <body>
      
     <div class="container"> <!-- div container -->
         <div class="py-4 text-center text-white"><!-- div py-5 -->
@@ -32,7 +32,7 @@
 
     <div class="col-md-12 order-md-1"><!-- div col-md-8 order-md-1 -->
       <h4 class="mb-3 text-white">Billing address</h4>
-      <form class="needs-validation" novalidate>
+      <form class="needs-validation"  method="post" action="payment.html">
         <div class="row"><!-- div row -->
           <div class="col-md-6 mb-3"><!-- div col-md-6 mb-3 -->
             <label for="firstName" class="text-white">First name</label>
@@ -92,7 +92,7 @@
         <div class="row"><!-- div row -->
           <div class="col-md-3 mb-3"><!-- div col-md-6 -->
 
-        <button class="btn btn-warning btn-lg btn-block"><a href="payment.html">Finalizar</a></button>
+       <input type="submit" class="btn btn-warning btn-lg btn-block"> 
       </form>
     </div><!-- im div col-md-6 -->
 </div><!-- fim div row -->
@@ -121,6 +121,6 @@
 <!-- SCRIPTS ------------------------------------------------------------->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/docs/4.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
-<script src="form-validation.js"></script></body>
+</body>
 
 </html>
